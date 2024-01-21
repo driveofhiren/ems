@@ -1,0 +1,120 @@
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 5px 5px 3px rgba(70, 66, 70, 0.481);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"]{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  select {
+    height: 40px; 
+  }
+  
+  button {
+    width: 100px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading-message {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-weight: bold;
+  }
+
+.employee-table-container {
+  margin: 20px;
+  box-shadow: 5px 5px 3px rgba(70, 66, 70, 0.481);
+}
+
+.employee-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #e7a9ff;
+  color: #000000;
+}
+
+.employee-table th {
+  background-color: #4d6aff;
+}
+h1,.footer{text-align: center;}
+Link{text-decoration: none;}
+.nav{background-color: #e7a9ff;padding: 25px 0px 25px 0px;
+margin-left: 15px;margin-right: 15px;}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigation-links a {
+  margin-right: 20px;
+  padding: 10px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navigation-links a:hover {
+  color: #007bff;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #0056b3;
+}
